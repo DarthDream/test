@@ -20,7 +20,7 @@ def addStudent():
     try:
         name = input("enter name: ").strip()
         surname = input("enter name: ").strip()
-        age = int(input("enter name: "))
+        ages = int(input("enter name: "))
  
         grades = input("enter grades: ")
         grades = [int(grades.strip()) for grades in grades.split(",")]
